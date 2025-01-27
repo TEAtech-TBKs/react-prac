@@ -6,7 +6,7 @@ import React from 'react'
 //   )
 // }
 // or
-const ButtonComponent = (test, title ,color) => {
+const ButtonComponent = ({test, title ,color}) => {
   return (
     <button onClick={test} className={color}>{title}</button>
   )
